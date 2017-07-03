@@ -1,3 +1,5 @@
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/aio_otfp/proprietary/priv-app,system/priv-app)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/aio_otfp/proprietary/bin,system/bin)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/aio_otfp/proprietary/etc,system/etc)
